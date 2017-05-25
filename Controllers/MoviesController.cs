@@ -49,9 +49,9 @@ namespace hastowork.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Movie mo)
         {
-            _movieRepository.Delete(id);
+            _movieRepository.Delete(mo);
             return NoContent();
             
         }

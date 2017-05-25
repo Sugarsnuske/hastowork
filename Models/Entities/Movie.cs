@@ -6,6 +6,7 @@ namespace hastowork.Models.Entities
 {
     public class Movie
     {
+        [Key]
         public int MovieItemID{get;set;}
         public string MovieTitle{get;set;}
         public int YearPublished{get;set;}
