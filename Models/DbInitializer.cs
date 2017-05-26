@@ -3,11 +3,6 @@ using System.Linq;
 using hastowork.Models.Entities;
 using Microsoft.Extensions.DependencyInjection;
 
-// 1. remove unnessary usings
-
-// 2. our application is called ConsoleApplication and we do not have a data folder, 
-//i put it in Models instead
-
 namespace hastowork.Models 
 {
     public static class DbInitializer
